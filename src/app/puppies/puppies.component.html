@@ -1,0 +1,32 @@
+<!-- <div class="row">
+        <div class="col-md-5" id="list">
+          <app-puppies-list></app-puppies-list>
+        </div>
+    </div>
+    <div class="row" id="deatil">
+        <div class="col-md-7">
+          <app-puppies-detail></app-puppies-detail>
+        </div>
+    </div> -->
+
+  
+    <div class="row">
+      <h3 id="h3">“Helping to manage loneliness and depression.”</h3>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-5" id="list">
+        <app-puppies-list></app-puppies-list>
+      </div>
+      <div class="col-md-7" id="deatil">
+        <!-- <app-puppies-detail *ngIf="selectedAll ;else info" [puppies]="selectedAll"></app-puppies-detail>
+        <ng-template #info>
+          <p style="text-align: center;">select the animal to About more !!</p>
+        </ng-template> -->
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+    <br>
+    <br><br>
+<hr>
+<app-footer></app-footer>

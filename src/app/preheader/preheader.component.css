@@ -1,0 +1,232 @@
+ body {
+              background-image: url('https://assets.justinmind.com/wp-content/uploads/2020/02/website-background-design-guide-768x492.png');
+              background-size: cover;
+              background-position: center;
+              font-family: Arial, sans-serif;
+          }
+  
+          .container {
+            max: width 0;
+            margin: 0 auto;
+            padding: 0;
+            background-color: #ad9696;
+            border-radius: 5px;
+            text-align: center;
+            
+            background-image: url('https://i.pinimg.com/originals/06/de/9f/06de9fcc1251a5a1a6f08a94bc05de1c.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+          .pawan{
+            max: width 0;
+            margin: 0 auto;
+            padding: 0;
+            background-color: #f7f1f1;
+            border-radius: 5px;
+            text-align: center;
+            
+          }
+  
+          img {
+              max-width: 1200px;
+              border-radius: 50%;
+              margin-top: 20px;
+          }
+          
+  
+          h1 {
+              margin-top: 20px;
+          }
+  
+          p {
+              margin-top: 10px;
+          }
+          * {
+            box-sizing: border-box;
+          }
+          
+          body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+          }
+          h1 {
+            color: #333;
+            font-family: tahoma;
+            font-size: 3rem;
+            font-weight: 100;
+            line-height: 1.5;
+            text-transform: uppercase;
+            white-space: nowrap;
+            overflow: hidden;
+            position: relative;
+            width: 560px;
+        }
+        .pawanpaliwal{
+          font-weight: 700;
+        }
+        .paliwal{
+          font-weight: 400;
+          opacity: .9;
+        }
+          
+          
+          h1 span {
+            font-size: 40px;
+            margin-left: 40px;
+          }
+          
+          .message {
+            background-color: rgb(202, 197, 58);
+            color: #333;
+            display: block;
+            font-weight: 900;
+            overflow: hidden;
+            position: absolute;
+            padding-left: 0.5rem;
+            top: 0.2rem;
+            left: 270px;
+            animation: openclose 5s ease-in-out infinite;
+          }
+          
+          .word1, .word2, .word3 {
+            font-family: tahoma;
+          }
+          
+          @keyframes openclose {
+            0% {
+              top: 0.2rem;
+              width: 0;
+            }
+            5% {
+              width: 0;
+            }
+            15% {
+              width: 230px;
+            }
+            30% {
+              top: 0.2rem;
+              width: 230px;
+            }
+            33% {
+              top: 0.2rem;
+              width: 0;
+            }
+            35% {
+              top: 0.2rem;
+              width: 0;
+            }
+            38% {
+              top: -4.5rem;
+              
+            }
+            48% {
+              top: -4.5rem;
+              width: 190px;
+            }
+            62% {
+              top: -4.5rem;
+              width: 190px;
+            }
+            66% {
+              top: -4.5rem;
+              width: 0;
+              text-indent: 0;
+            }
+            71% {
+              top: -9rem;
+              width: 0;
+              text-indent: 5px;
+            }
+            86% {
+              top: -9rem;
+              width: 285px;
+            }
+            95% {
+              top: -9rem;
+              width: 285px;
+            }
+            98% {
+              top: -9rem;
+              width: 0;
+              text-indent: 5px;
+            }
+            100% {
+              top: 0;
+              width: 0;
+              text-indent: 0;
+            }
+          }
+          #rini{
+            color: blue;
+          }
+  
+
+
+@media screen and (max-width:591px) {
+
+  h1 {
+		width: 100vw;
+	  }
+	  h1 span {
+		font-size: 2rem;
+		margin-left: 40px; 
+	 }
+	 .message{
+		font-size: 0.6;
+		position: absolute;
+	padding-left: 0.5rem;
+	top: 0.1rem;
+	left: 236px;
+	 }
+}
+@media screen and (max-width:547px){
+	.message{
+		font-size: 0.6;
+		position: absolute;
+	padding-left: 0.5rem;
+	top: 0.1rem;
+	left: 199px;
+	 }
+	 .word1, .word2, .word3{
+		font-size: auto;
+	 }
+	 h1 {
+		width: 100vw;
+		margin: auto;
+	  }
+}
+@media screen and (max-width:509px){
+	h1 span{
+		margin-left: 0px;
+	}
+	.message{
+		position: absolute;
+	padding-left: 0.5rem;
+	top: 0.1rem;
+	left: 153px;
+	padding-bottom: 12px;
+	}
+}
+@media screen and (max-width:465px){
+	h1 span{
+    font-size: 0.6em;
+		position: relative;
+		left: -3px;
+		margin-left: 0px;
+	}
+	.message{
+    font-size: 2rem;
+		position: absolute;
+	padding-left: 0.5rem;
+	top: 0.1rem;
+	left: 151px;
+	padding-bottom: 12px;
+	}
+  #same{
+    padding: 14px 1px;
+  }
+}

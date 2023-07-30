@@ -1,0 +1,27 @@
+<!-- 
+<div class="row" *ngFor="let puppy of puppies">
+    <div class="col-md-3">
+  <div class="card" style="width: 20rem">
+    <img src="{{ puppy.img }}" class="card-img-top" alt="{{ puppy.name }}" />
+    <div class="card-body">
+      <h4>Name: <a href="">{{ puppy.name }}</a></h4>
+      <p class="card-text">About: {{ puppy.desc }}</p>
+    </div>
+  </div>
+</div>
+</div> -->
+<div class="row">
+  <div class="col-xs-12">
+    <button class="btn btn-success" routerLink="/new">Add your puppy here!</button>
+  </div>
+</div>
+<hr>
+<br>
+<div class="container">
+    <div class="col-sx-12">
+       <app-puppies-item *ngFor="let puppyEl of puppies; let i =index" 
+       [puppies]="puppyEl" [index]="i"  routerLink="/detail/{{i}}"></app-puppies-item>
+    </div>
+</div>
+<hr>
+

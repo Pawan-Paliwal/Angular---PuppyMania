@@ -1,0 +1,24 @@
+.container-fluid{
+    background-color: rgb(227, 142, 218);
+}
+.navbar-brand{
+    font-family: "Arial"
+}
+ img{
+    width: 64px;
+    border-radius: 500px;
+    max-width: 100%;
+    height: auto;
+ }
+ .nav-item a{
+    font: bold;
+ }
+#pawan{
+    background-color: rgb(234, 227, 227);
+    padding:0px;
+    margin: 0px;
+}
+.container{
+    margin: 0px;
+    padding-left: 31px;
+}

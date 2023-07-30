@@ -1,0 +1,55 @@
+<!-- <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a href="#" class="navbar-brand">PuppyMania</a>
+    </div>
+    <div class="collapse  navbaar-collapse ">
+      <ul class="nav navbar-nav">
+        <li><a href="#">puppies</a></li>
+        <li><a href="#">puppySpot</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-left">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" role="button"
+            >about Us<span class="caret"></span
+          ></a>
+        </li>
+        <ul class="dropdown-menu">
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" role="button"
+            >manage puppies<span class="caret"></span
+          ></a>
+        </li>
+        <ul class="dropdown-menu">
+          <li><a href="#">save data</a></li>
+          <li><a href="#">fetch puppies</a></li>
+        </ul>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+
+
+
+<!-- BOOTSTRAP NAVBAR IMPORTED FROM THE WEBSITE DOCS  -->
+<div id="pawan" >
+<app-header></app-header>
+ <!-- <app-preheader (choosen)="prehead($event)"></app-preheader>  -->
+ <div class="container" >
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12"> 
+       <!-- <app-puppies *ngIf="selectionPuppy === 'puppies'"></app-puppies>
+      <app-puppy-world *ngIf="selectionPuppy !== 'puppies'"></app-puppy-world> -->
+       <router-outlet></router-outlet>
+    </div>
+  </div>
+</div> 
+</div>
+
+<!-- <app-cats *ngIf="chooseOne ==='dogs'"></app-cats>
+<app-dogs *ngIf="chooseOne !=='dogs'"></app-dogs> -->

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100&display=swap');
+
+#stick{
+    position: sticky;
+    top: 10px;
+    border: 2px solid #429b36;
+    border-radius: 10px;
+    margin-left: 33%;
+    margin: 2%;
+    width: 40%;
+    padding-left: 0%;
+}
+#button{
+    width: 10vw;
+}
+#check{
+    width: 50%;
+    display: flex;  
+    padding: 12px;
+    padding-left: 78px;
+}
+#out{
+    display: block;
+    width: 100vw;
+    background-image: url('https://petlifesa.com/wp-content/uploads/slider2/PLSA630-petilfesa-web-dog-banner-image-FA.jpeg');
+    /* display: block;
+    -webkit-user-select: none;
+    margin: auto;
+    cursor: zoom-in;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms; */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+input{
+    width: 30vw;
+}
+textarea{
+    width: 30vw;
+}
+#noway{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+
+@media screen and (max-width:1279px){
+    #stick{
+        width: 50vw;
+        height: auto;
+    }
+    #out{
+        background-image: none;
+   }
+    #check{
+        width: 50%;
+        display: flex;
+        padding: 12px;
+        padding-left: 24px;
+    }
+    input{
+        width: 40vw;
+    }
+    textarea{
+        width: 40vw;
+    }
+    #button{
+        width: 10vw;
+    }
+}
+@media screen and (max-width:808px){
+    #stick{
+        width: 80vw;
+        height: auto;
+    }
+    #check{
+        width: 100vw;
+     
+    }
+    #out{
+         background-image: none;
+    }
+    input{
+        width: 50vw;
+    }
+     textarea{
+        width: 40vw;
+    }
+    #button{
+        width: fit-content;
+    }
+}

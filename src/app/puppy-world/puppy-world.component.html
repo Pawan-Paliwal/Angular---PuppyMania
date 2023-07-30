@@ -1,0 +1,38 @@
+<!-- <div class="row">
+    <div class="col-xs-10">
+      <app-puppy-edit></app-puppy-edit>
+      <hr>
+  <div class="col-sx-12 ">
+    <a *ngFor="let puppyworld of puppu">
+        <div class="col-sm-3 ">
+            <div class="card" style="width: 20rem">
+              <img src="{{ puppyworld.img }}" class="card-img-top" alt="{{ puppyworld.name }}" />
+              <div class="card-body">
+                <h4 class="list-group-item-heading">Name:<a >{{ puppyworld.name }}</a></h4>
+                <p class="card-text list-group-item-body">About: {{ puppyworld.descri }}</p>
+              </div>
+            </div>
+          </div>
+    </a>
+  </div> -->
+  <div class="row">
+    <div class="col-xs-10">
+      <app-puppy-edit></app-puppy-edit>
+      <hr>
+      <ul class="list-group">
+        <a
+          class="list-group-item"
+          style="cursor: pointer"
+          *ngFor="let puppyworld of pups; let i =index"
+          (click)="OnItemAdd(i)"
+        >
+        <!-- <img src="{{ puppyworld.img }}" class="card-img-top" alt="{{ puppyworld.name }}" /> -->
+        {{ puppyworld.name }}-({{ puppyworld.amount }})
+        </a>
+      </ul>
+      
+    </div>
+  </div>
+  <hr>
+ 
+  <app-footer></app-footer>

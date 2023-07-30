@@ -1,0 +1,88 @@
+/* #prize{
+    font-weight: bold;
+    font-weight: bold;
+    color: green;
+   font-family: 'Courier New', Courier, monospace;
+}
+#pawa{
+   
+    height: 471px;
+    width: -webkit-fill-available;
+    width: 729px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+#pawan {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+}
+#pawan span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+#stick{
+  position: sticky;
+  top: 10px;
+} */
+.container{
+  display: inline;
+  /* display: flex; */
+  flex-wrap: wrap;
+  flex-direction: row;
+  overflow:hidden ;
+}
+.col-sx-3{
+  float: left;
+  max-width: fit-content;
+}
+.col-sx-4{
+  float: right;
+  justify-content: center;
+}
+img{
+  max-width: 426px;
+  border: 1px solid #35cd22;
+  margin-top: 27px;
+  margin-right: 29px;
+}
+.button{
+  cursor: pointer;
+  width: 0px;
+}
+.btn-group{
+  width: 368px;
+  height: 47px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+h1{
+  position: relative;
+}
+@media screen and (max-width:1201px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+}

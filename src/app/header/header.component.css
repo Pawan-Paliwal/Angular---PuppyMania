@@ -1,0 +1,98 @@
+
+/* .container-fluid{
+    background-color: rgba(197, 202, 172, 0.922);
+    border-radius: 5px;
+} */
+#header{
+  padding: 1%;
+}
+#map{
+height: 54px;
+}
+#header{
+   background-color: rgb(188, 195, 42);
+}
+ul li:hover{
+  background-color: #74b831;
+opacity: .8;
+border-radius: 10px;
+}
+ul li {
+  margin: 0px 2px;
+}
+.navbar-brand{
+    color: #429b36;
+    padding: 9px;
+    font-family: "Arial";
+    font-style: italic;
+    font: italic small-caps 300 30px/20px Impact;
+   
+}
+
+ #login{
+    font-size: 18px;
+    color: rgb(0, 4, 0);
+    font-family: Arial;
+ }
+ #manage{
+    font-size: 18px;
+    color: rgb(219, 213, 203);
+    font-family: Arial;
+ }
+
+ img{
+   width: 87px;
+   border-radius: 100%;
+   max-width: 325%;
+   height: 63px;
+ }
+ .nav-item a{
+    font: bold;
+ }
+
+ 
+ #selct{
+   border: 2px solid yellow;
+ }
+ .sava-data:hover{
+background-color: #74b831;
+opacity: .8;
+border-radius: 10px;
+ }
+ .sava-data{
+  height: 40px;
+  padding: 5px 2px
+ }
+
+ @media screen and (max-width:992px) {
+  .container-fluid{
+    height: auto;
+    /* display: flex;
+    flex-direction: column; */
+  }
+ 
+  .navbar-collapse{
+   width: 100%;
+   display: flex;
+  flex-wrap: wrap;
+ 
+  }
+  #map{
+   display: flex;
+   justify-content: center;
+
+   width: 100vw;
+   float: right;
+  }
+  #map a{
+   padding: 20px 0px;
+  }
+  .cha{
+   display: flex;
+   flex-direction: row;
+   margin: 0px 12px;
+  }
+  .cha li{
+    margin: 1px 12px;
+  }
+ }

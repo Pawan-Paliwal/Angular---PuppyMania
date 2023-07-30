@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100&family=Ysabeau+SC:wght@200;700&display=swap');
+
+#stick{
+    position: sticky;
+    top: 10px;
+    border: 2px solid #429b36;
+    border-radius: 10px;
+    margin-left: 33%;
+    margin: 2%;
+    width: 40%;
+    padding-left: 0%;
+}
+ul li{
+    font-weight: 600;
+}
+
+
+#noway{
+    display: flex;
+padding-left: 49px;
+
+font-family: 'Bebas Neue', sans-serif;
+    
+}
+
+
+@media screen and (max-width:1279px){
+    #stick{
+        width: 50vw;
+        height: auto;
+    }
+    #out{
+        background-image: none;
+   }
+    #check{
+        width: 50%;
+        display: flex;
+        padding: 12px;
+        padding-left: 24px;
+    }
+    #noway{
+
+    }
+    input{
+        width: 40vw;
+    }
+    textarea{
+        width: 40vw;
+    }
+    #button{
+        width: 10vw;
+    }
+}
+@media screen and (max-width:808px){
+    #stick{
+        width: 90vw;
+        height: auto;
+    }
+    #check{
+        width: 80vw;
+     
+    }
+    #noway{
+     padding-left: 30px;   
+    }
+    #out{
+         background-image: none;
+    }
+
+}

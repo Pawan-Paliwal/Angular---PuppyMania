@@ -1,0 +1,18 @@
+.row{
+    justify-content: center;
+
+display: flex;
+
+margin: 40px 50px;
+
+
+padding: 30px;
+
+
+}
+#pawan{
+    border: 5px solid rgb(160, 153, 153);
+}
+input.ng-invalid.ng-touched{
+    border: 2px solid red;
+}
